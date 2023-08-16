@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name="roles")
+@Table(name = "roles")
 public class RoleEntity {
     
     @Id
@@ -26,8 +26,6 @@ public class RoleEntity {
 
     @Enumerated(EnumType.STRING)
     private ERole name;
-
-    
 
 }
 
